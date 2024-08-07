@@ -1,0 +1,6 @@
+{
+    "$schema": "https://json.schemastore.org/nodemon",
+    "watch": ["src", ".env"],
+    "ext": "ts,js,env,json",
+    "exec": "node -r @swc-node/register src/server.ts"
+}
